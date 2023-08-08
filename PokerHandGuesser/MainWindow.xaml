@@ -1,0 +1,26 @@
+﻿<Window x:Class="PokerHandGuesser.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PokerHandGuesser"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="640" Width="960"
+        ResizeMode="NoResize">
+    <Grid>
+        <Label Margin="0,16,0,0" Panel.ZIndex="1" HorizontalAlignment="Center" VerticalAlignment="Top" Foreground="White" FontSize="45" FontFamily="Cambria">
+            Poker Hand Guesser
+        </Label>
+        <Image Margin="0,16,0,0" Stretch="Fill" Source="pack://siteoforigin:,,,/poker_table.jpg"/>
+        <Grid Margin="50,200,50,200" Name ="displayPanelEffect" Panel.ZIndex="1" Background="LightGray" Opacity="0.5">
+
+        </Grid>
+
+        <Grid Name="displayCardPanel" Opacity="1" Margin="0,200,0,200" HorizontalAlignment="Center" Width="860" Panel.ZIndex="1" />
+        <ComboBox HorizontalAlignment="Left" Margin="255,466,0,0" VerticalAlignment="Top" Width="150" Height="40" Name="selectHandRankComboBox"/>
+        <Button Content="Confirm" HorizontalAlignment="Left" Margin="410,466,0,0" VerticalAlignment="Top" Height="40" Width="150" Name="confirmButton" Click="confirmButton_Click"/>
+        <Button Content="Next" HorizontalAlignment="Left" Margin="565,465,0,0" VerticalAlignment="Top" Height="40" Width="150" Name="nextHandButton" Click="nextHandButton_Click"/>
+        <Label Content="" Name="resultOutputLabel" HorizontalAlignment="Center" Margin="0,106,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Button Content="View hand" HorizontalAlignment="Left" Margin="410,509,0,0" VerticalAlignment="Top" Height="40" Width="150" Name="viewHandButton" Click="viewHandButton_Click"/>
+    </Grid>
+</Window>
