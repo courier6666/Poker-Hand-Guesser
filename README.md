@@ -171,5 +171,6 @@ It contains such properties and methods:
 - CombinationRank: variable that stores rank of hand combination that class tries to find.
 - ContainsHand: return true if hand combination can be constructed given the cards.
 - GetUniqueCards: auxilary method for finding only unique cards within set of cards.
+
 __'AbstractPokerHandChecker'__ also contains auxilary comparer classes for sorting - __'CardValueComparer'__ and __'CardComparer'__.
 So far there are 10 hand combinations and there are 10 poker hand checker classes respectively.
