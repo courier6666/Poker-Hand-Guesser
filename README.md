@@ -178,3 +178,8 @@ __'AbstractPokerHandChecker'__ also contains auxilary comparer classes for sorti
 So far there are 10 hand combinations and there are 10 poker hand checker classes respectively.
 #### __PokerHandCheckHandler__
 PokerHandCheckHandler is a class that contains poker hand checkers in a form of a chain.
+The class is used to check and find hand combinations in a group of cards.
+The class is designed using 'Chain of responsiblity' pattern.
+The checking is started from highest hand combination (Royal Flush) to lowest (High Card).
+If hand combination is found, it is returned.
+Otherwise checking is transferred to the next poker hand checker in a chain until hand combination is found
