@@ -7,7 +7,7 @@ Project consists of two main parts: PokerLibrary and an interface module.
 Poker library contains classes for defining poker cards and finding hand combinations in provided deck.
 ![photo_2024-05-28_18-20-00](https://github.com/courier6666/Poker-Hand-Guesser/assets/89982405/65f11564-f04a-4e30-8715-1fbd7b6cd341)
 
-__Card:__
+#### __Card__
 PokerLibrary contains class 'Card'. It represents a card in a deck.
 Class 'Card' has two defined properties:
 - 'Suit': represent a suit of the card. Can have value of: Hearts, Spades, Diamonds, Clubs.
@@ -80,7 +80,7 @@ namespace PokerLibrary
     }
 }
 ```
-__Poker Hand Checkers:__
+#### __Poker Hand Checkers:__
 These classes are responsible for receeving group of cards and checking it for presence of certain hand combination.
 Every specific classes searches for specifica hand combination.
 Class __'AbstractPokerHandChecker'__ is a base class for poker hand checkers:
@@ -169,9 +169,12 @@ namespace PokerLibrary.PokerHandCheckers
 ```
 It contains such properties and methods:
 - CombinationRank: variable that stores rank of hand combination that class tries to find.
+- GetHand: returns found hand combination that can be constrcuted from group of cards.
 - ContainsHand: return true if hand combination can be constructed given the cards.
 - GetUniqueCards: auxilary method for finding only unique cards within set of cards.
 
 __'AbstractPokerHandChecker'__ also contains auxilary comparer classes for sorting - __'CardValueComparer'__ and __'CardComparer'__.
 
 So far there are 10 hand combinations and there are 10 poker hand checker classes respectively.
+#### __PokerHandCheckHandler__
+PokerHandCheckHandler is a class that contains poker hand checkers in a form of a chain.
