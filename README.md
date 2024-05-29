@@ -183,3 +183,70 @@ The class is designed using 'Chain of responsiblity' pattern.
 The checking is started from highest hand combination (Royal Flush) to lowest (High Card).
 If hand combination is found, it is returned.
 Otherwise checking is transferred to the next poker hand checker in a chain until hand combination is found
+
+Code:
+```
+public class PokerHandCheckHandler : IHandler<AbstractPokerHandChecker>
+    {
+        AbstractPokerHandChecker pokerHandChecker;
+        IHandler<AbstractPokerHandChecker> nextHandler;
+        public PokerHandCheckHandler(AbstractPokerHandChecker pokerHandChecker)
+        {
+            this.pokerHandChecker = pokerHandChecker;
+        }
+        private PokerHandCheckHandler()
+        {
+
+        }
+        public IHandler<AbstractPokerHandChecker> SetNext(IHandler<AbstractPokerHandChecker> handler)
+        {
+            this.nextHandler = handler;
+            return handler;
+        }
+        public object Handle(object request)
+        {
+            if (!(request is List<Card>))
+                return null;
+
+            List<Card> cards = request as List<Card>;
+            if (!pokerHandChecker.ContainsHand(cards))
+                return this.nextHandler?.Handle(cards);
+
+            return this.pokerHandChecker;
+        }
+
+    }
+```
+#### __PokerChecker__
+'PokerChecker' is a static class that initializes instance of 'PokerHandCheckHandler' with all 'PokerHandChecker' classes.
+They are properly changed according to the hierarchy.
+So 'PokerCHecker' class acts as a wrapper for 'PokerHandCheckHandler' class.
+
+```
+static class PokerChecker
+    {
+        static PokerHandCheckHandler handler;
+        static PokerChecker()
+        {
+            PokerHandCheckHandler highCard = new PokerHandCheckHandler(new HighCardChecker());
+            PokerHandCheckHandler pair = new PokerHandCheckHandler(new PairChecker());
+            PokerHandCheckHandler twoPair = new PokerHandCheckHandler(new TwoPairChecker());
+            PokerHandCheckHandler three = new PokerHandCheckHandler(new ThreeOfAKindChecker());
+            PokerHandCheckHandler straight = new PokerHandCheckHandler(new StraightChecker());
+            PokerHandCheckHandler flush = new PokerHandCheckHandler(new FlushChecker());
+            PokerHandCheckHandler fullHouse = new PokerHandCheckHandler(new FullHouseChecker());
+            PokerHandCheckHandler four = new PokerHandCheckHandler(new FourOfAKindChecker());
+            PokerHandCheckHandler straightFlush = new PokerHandCheckHandler(new StraightFlushChecker());
+            PokerHandCheckHandler royalFlush = new PokerHandCheckHandler(new RoyalFlushChecker());
+
+            royalFlush.SetNext(straightFlush).SetNext(four).SetNext(fullHouse).SetNext(flush).SetNext(straight).SetNext(three).SetNext(twoPair).
+                SetNext(pair).SetNext(highCard);
+
+            PokerChecker.handler = royalFlush;
+        }
+        public static AbstractPokerHandChecker GetPokerHandChecker(List<Card> cards)
+        {
+            return PokerChecker.handler.Handle(cards) as AbstractPokerHandChecker;
+        }
+    }
+```
