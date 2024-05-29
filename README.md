@@ -219,7 +219,7 @@ public class PokerHandCheckHandler : IHandler<AbstractPokerHandChecker>
 ```
 #### __PokerChecker__
 'PokerChecker' is a static class that initializes instance of 'PokerHandCheckHandler' with all 'PokerHandChecker' classes.
-They are properly changed according to the hierarchy.
+They are properly chained according to the hierarchy of poker hand combinations.
 So 'PokerCHecker' class acts as a wrapper for 'PokerHandCheckHandler' class.
 
 ```
