@@ -81,8 +81,8 @@ namespace PokerLibrary
 }
 ```
 #### __Poker Hand Checkers:__
-These classes are responsible for receeving group of cards and checking it for presence of certain hand combination.
-Every specific classes searches for specifica hand combination.
+These classes are responsible for receving group of cards and checking it for presence of certain hand combination.
+Every specific classes searches for specific hand combination.
 Class __'AbstractPokerHandChecker'__ is a base class for poker hand checkers:
 ```
 using PokerLibrary;
