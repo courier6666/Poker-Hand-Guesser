@@ -1,6 +1,6 @@
 # Poker hand guesser
 Small program written in C# on .NET Core 3.1
-for memorizing poker hand combinations.
+for practicing knowledge of poker hand combinations.
 ## Project structure
 Project consists of two main parts: PokerLibrary and an interface module.
 ### PokerLibrary
