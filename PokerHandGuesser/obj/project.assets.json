@@ -1,14 +1,33 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    "net8.0-windows7.0": {
+      "PokerLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/PokerLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PokerLibrary.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "PokerLibrary/1.0.0": {
+      "type": "project",
+      "path": "../PokerHadChecker/PokerLibrary.csproj",
+      "msbuildProject": "../PokerHadChecker/PokerLibrary.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    "net8.0-windows7.0": [
+      "PokerLibrary >= 1.0.0"
+    ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {}
+    "C:\\Users\\Користувач\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -16,35 +35,45 @@
       "projectUniqueName": "D:\\Projects\\PokerHandGuesser\\PokerHandGuesser\\PokerHandGuesser.csproj",
       "projectName": "PokerHandGuesser",
       "projectPath": "D:\\Projects\\PokerHandGuesser\\PokerHandGuesser\\PokerHandGuesser.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\Користувач\\.nuget\\packages\\",
       "outputPath": "D:\\Projects\\PokerHandGuesser\\PokerHandGuesser\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Користувач\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "netcoreapp3.1"
+        "net8.0-windows7.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows7.0",
+          "projectReferences": {
+            "D:\\Projects\\PokerHandGuesser\\PokerHadChecker\\PokerLibrary.csproj": {
+              "projectPath": "D:\\Projects\\PokerHandGuesser\\PokerHadChecker\\PokerLibrary.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
-      "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
+      "net8.0-windows7.0": {
+        "targetAlias": "net8.0-windows7.0",
         "imports": [
           "net461",
           "net462",
@@ -64,7 +93,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

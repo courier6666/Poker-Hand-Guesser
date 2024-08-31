@@ -15,8 +15,12 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Windows.Media.Animation;
 using System.Windows.Threading;
-using PokerLibrary;
-using PokerLibrary.PokerHandCheckers;
+using PokerHadChecker.Enums;
+using PokerHadChecker.PokerHandCheckers;
+using PokerHadChecker.Structs;
+using PokerHadChecker.Handlers;
+using PokerLibrary.Interfaces;
+using PokerLibrary.PokerHandGenerators;
 
 namespace PokerHandGuesser
 {
@@ -25,6 +29,7 @@ namespace PokerHandGuesser
     /// </summary>
     public partial class MainWindow : Window
     {
+        private IPokerHandCombinationGenerator _generator = new BruteForceGenerator();
         Dictionary<Suit, string> suitToImageName = new Dictionary<Suit, string>();
         Dictionary<CardValue, string> valueToImageName = new Dictionary<CardValue, string>();
         Dictionary<HandCombinationRank, string> handRankToString = new Dictionary<HandCombinationRank, string>();
@@ -142,7 +147,8 @@ namespace PokerHandGuesser
         {
             this.resultOutputLabel.Content = "Guess...";
             this.resultOutputLabel.Foreground = Brushes.White;
-            this.currentHand = this.GenerateHand(this.deck);
+            Random rnd = new Random();
+            this.currentHand = _generator.Generate(7, (HandCombinationRank)rnd.Next(1, 11));
             DisplayCards(currentHand, this.displayCardPanel);
             this.selectHandRankComboBox.SelectedItem = null;
             this.viewHandButton.IsEnabled = false;

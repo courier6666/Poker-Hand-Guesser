@@ -4,7 +4,6 @@ D:\Projects\PokerHandGuesser\PokerHandGuesser\bin\Debug\netcoreapp3.1\PokerHandG
 D:\Projects\PokerHandGuesser\PokerHandGuesser\bin\Debug\netcoreapp3.1\PokerHandGuesser.runtimeconfig.dev.json
 D:\Projects\PokerHandGuesser\PokerHandGuesser\bin\Debug\netcoreapp3.1\PokerHandGuesser.dll
 D:\Projects\PokerHandGuesser\PokerHandGuesser\bin\Debug\netcoreapp3.1\PokerHandGuesser.pdb
-D:\Projects\PokerHandGuesser\PokerHandGuesser\obj\Debug\netcoreapp3.1\PokerHandGuesser.csproj.AssemblyReference.cache
 D:\Projects\PokerHandGuesser\PokerHandGuesser\obj\Debug\netcoreapp3.1\MainWindow.g.cs
 D:\Projects\PokerHandGuesser\PokerHandGuesser\obj\Debug\netcoreapp3.1\App.g.cs
 D:\Projects\PokerHandGuesser\PokerHandGuesser\obj\Debug\netcoreapp3.1\PokerHandGuesser_MarkupCompile.cache
@@ -18,3 +17,4 @@ D:\Projects\PokerHandGuesser\PokerHandGuesser\obj\Debug\netcoreapp3.1\PokerHandG
 D:\Projects\PokerHandGuesser\PokerHandGuesser\obj\Debug\netcoreapp3.1\PokerHandGuesser.pdb
 D:\Projects\PokerHandGuesser\PokerHandGuesser\obj\Debug\netcoreapp3.1\PokerHandGuesser.genruntimeconfig.cache
 D:\Projects\PokerHandGuesser\PokerHandGuesser\obj\Debug\netcoreapp3.1\PokerHandGuesser.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\PokerHandGuesser\PokerHandGuesser\obj\Debug\netcoreapp3.1\PokerHandGuesser.sourcelink.json

@@ -1,0 +1,14 @@
+D:\Projects\PokerHadChecker\PokerHadChecker\bin\Debug\net8.0\PokerLibrary.exe
+D:\Projects\PokerHadChecker\PokerHadChecker\bin\Debug\net8.0\PokerLibrary.deps.json
+D:\Projects\PokerHadChecker\PokerHadChecker\bin\Debug\net8.0\PokerLibrary.runtimeconfig.json
+D:\Projects\PokerHadChecker\PokerHadChecker\bin\Debug\net8.0\PokerLibrary.dll
+D:\Projects\PokerHadChecker\PokerHadChecker\bin\Debug\net8.0\PokerLibrary.pdb
+D:\Projects\PokerHadChecker\PokerHadChecker\obj\Debug\net8.0\PokerLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\PokerHadChecker\PokerHadChecker\obj\Debug\net8.0\PokerLibrary.AssemblyInfoInputs.cache
+D:\Projects\PokerHadChecker\PokerHadChecker\obj\Debug\net8.0\PokerLibrary.AssemblyInfo.cs
+D:\Projects\PokerHadChecker\PokerHadChecker\obj\Debug\net8.0\PokerLibrary.csproj.CoreCompileInputs.cache
+D:\Projects\PokerHadChecker\PokerHadChecker\obj\Debug\net8.0\PokerLibrary.dll
+D:\Projects\PokerHadChecker\PokerHadChecker\obj\Debug\net8.0\refint\PokerLibrary.dll
+D:\Projects\PokerHadChecker\PokerHadChecker\obj\Debug\net8.0\PokerLibrary.pdb
+D:\Projects\PokerHadChecker\PokerHadChecker\obj\Debug\net8.0\PokerLibrary.genruntimeconfig.cache
+D:\Projects\PokerHadChecker\PokerHadChecker\obj\Debug\net8.0\ref\PokerLibrary.dll

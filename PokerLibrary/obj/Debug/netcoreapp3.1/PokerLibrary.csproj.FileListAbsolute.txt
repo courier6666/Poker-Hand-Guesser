@@ -1,0 +1,13 @@
+D:\Projects\PokerHadChecker\PokerHadChecker\obj\Debug\netcoreapp3.1\PokerLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\PokerHadChecker\PokerHadChecker\obj\Debug\netcoreapp3.1\PokerLibrary.AssemblyInfoInputs.cache
+D:\Projects\PokerHadChecker\PokerHadChecker\obj\Debug\netcoreapp3.1\PokerLibrary.AssemblyInfo.cs
+D:\Projects\PokerHadChecker\PokerHadChecker\obj\Debug\netcoreapp3.1\PokerLibrary.csproj.CoreCompileInputs.cache
+D:\Projects\PokerHadChecker\PokerHadChecker\bin\Debug\netcoreapp3.1\PokerLibrary.exe
+D:\Projects\PokerHadChecker\PokerHadChecker\bin\Debug\netcoreapp3.1\PokerLibrary.deps.json
+D:\Projects\PokerHadChecker\PokerHadChecker\bin\Debug\netcoreapp3.1\PokerLibrary.runtimeconfig.json
+D:\Projects\PokerHadChecker\PokerHadChecker\bin\Debug\netcoreapp3.1\PokerLibrary.runtimeconfig.dev.json
+D:\Projects\PokerHadChecker\PokerHadChecker\bin\Debug\netcoreapp3.1\PokerLibrary.dll
+D:\Projects\PokerHadChecker\PokerHadChecker\bin\Debug\netcoreapp3.1\PokerLibrary.pdb
+D:\Projects\PokerHadChecker\PokerHadChecker\obj\Debug\netcoreapp3.1\PokerLibrary.dll
+D:\Projects\PokerHadChecker\PokerHadChecker\obj\Debug\netcoreapp3.1\PokerLibrary.pdb
+D:\Projects\PokerHadChecker\PokerHadChecker\obj\Debug\netcoreapp3.1\PokerLibrary.genruntimeconfig.cache
