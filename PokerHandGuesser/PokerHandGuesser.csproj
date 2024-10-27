@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\PokerHadChecker\PokerLibrary.csproj" />
+    <ProjectReference Include="..\PokerLibrary\PokerLibrary.csproj" />
   </ItemGroup>
 
 </Project>

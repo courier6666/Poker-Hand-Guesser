@@ -16,7 +16,10 @@
       },
       "PokerLibrary/1.0.0": {
         "runtime": {
-          "PokerLibrary.dll": {}
+          "PokerLibrary.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

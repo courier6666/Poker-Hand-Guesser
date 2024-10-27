@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using PokerHadChecker.PokerHandCheckers;
-using PokerHadChecker.Structs;
+using PokerLibrary.PokerHandCheckers;
+using PokerLibrary.Structs;
 
-namespace PokerHadChecker.Handlers
+namespace PokerLibrary.Handlers
 {
 
     public static class PokerChecker
@@ -12,25 +12,25 @@ namespace PokerHadChecker.Handlers
         static PokerHandCheckHandler handler;
         static PokerChecker()
         {
-            PokerHandCheckHandler highCard = new PokerHandCheckHandler(new HighCardChecker());
-            PokerHandCheckHandler pair = new PokerHandCheckHandler(new PairChecker());
-            PokerHandCheckHandler twoPair = new PokerHandCheckHandler(new TwoPairChecker());
-            PokerHandCheckHandler three = new PokerHandCheckHandler(new ThreeOfAKindChecker());
-            PokerHandCheckHandler straight = new PokerHandCheckHandler(new StraightChecker());
-            PokerHandCheckHandler flush = new PokerHandCheckHandler(new FlushChecker());
-            PokerHandCheckHandler fullHouse = new PokerHandCheckHandler(new FullHouseChecker());
-            PokerHandCheckHandler four = new PokerHandCheckHandler(new FourOfAKindChecker());
-            PokerHandCheckHandler straightFlush = new PokerHandCheckHandler(new StraightFlushChecker());
-            PokerHandCheckHandler royalFlush = new PokerHandCheckHandler(new RoyalFlushChecker());
+            PokerHandCheckHandler highCard = new PokerHandCheckHandler(new HighCardFinder());
+            PokerHandCheckHandler pair = new PokerHandCheckHandler(new PairFinder());
+            PokerHandCheckHandler twoPair = new PokerHandCheckHandler(new TwoPairFinder());
+            PokerHandCheckHandler three = new PokerHandCheckHandler(new ThreeOfAKindFinder());
+            PokerHandCheckHandler straight = new PokerHandCheckHandler(new StraightFinder());
+            PokerHandCheckHandler flush = new PokerHandCheckHandler(new FlushFinder());
+            PokerHandCheckHandler fullHouse = new PokerHandCheckHandler(new FullHouseFinder());
+            PokerHandCheckHandler four = new PokerHandCheckHandler(new FourOfAKindFinder());
+            PokerHandCheckHandler straightFlush = new PokerHandCheckHandler(new StraightFlushFinder());
+            PokerHandCheckHandler royalFlush = new PokerHandCheckHandler(new RoyalFlushFinder());
 
             royalFlush.SetNext(straightFlush).SetNext(four).SetNext(fullHouse).SetNext(flush).SetNext(straight).SetNext(three).SetNext(twoPair).
                 SetNext(pair).SetNext(highCard);
 
             handler = royalFlush;
         }
-        public static AbstractPokerHandChecker GetPokerHandChecker(List<Card> cards)
+        public static AbstractPokerHandFinder GetPokerHandChecker(List<Card> cards)
         {
-            return handler.Handle(cards) as AbstractPokerHandChecker;
+            return handler.Handle(cards) as AbstractPokerHandFinder;
         }
     }
 }

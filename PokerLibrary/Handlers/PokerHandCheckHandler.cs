@@ -1,17 +1,17 @@
-﻿using PokerHadChecker.Interfaces;
-using PokerHadChecker.PokerHandCheckers;
-using PokerHadChecker.Structs;
+﻿using PokerLibrary.Interfaces;
+using PokerLibrary.PokerHandCheckers;
+using PokerLibrary.Structs;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace PokerHadChecker.Handlers
+namespace PokerLibrary.Handlers
 {
-    public class PokerHandCheckHandler : IHandler<List<Card>, AbstractPokerHandChecker>
+    public class PokerHandCheckHandler : IHandler<List<Card>, AbstractPokerHandFinder>
     {
-        AbstractPokerHandChecker pokerHandChecker;
-        IHandler<List<Card>, AbstractPokerHandChecker> nextHandler;
-        public PokerHandCheckHandler(AbstractPokerHandChecker pokerHandChecker)
+        AbstractPokerHandFinder pokerHandChecker;
+        IHandler<List<Card>, AbstractPokerHandFinder> nextHandler;
+        public PokerHandCheckHandler(AbstractPokerHandFinder pokerHandChecker)
         {
             this.pokerHandChecker = pokerHandChecker;
         }
@@ -19,12 +19,12 @@ namespace PokerHadChecker.Handlers
         {
 
         }
-        public IHandler<List<Card>, AbstractPokerHandChecker> SetNext(IHandler<List<Card>, AbstractPokerHandChecker> handler)
+        public IHandler<List<Card>, AbstractPokerHandFinder> SetNext(IHandler<List<Card>, AbstractPokerHandFinder> handler)
         {
             nextHandler = handler;
             return handler;
         }
-        public AbstractPokerHandChecker Handle(List<Card> request)
+        public AbstractPokerHandFinder Handle(List<Card> request)
         {
             if (request == null || request.Count == 0)
             {

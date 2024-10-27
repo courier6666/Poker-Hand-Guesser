@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using PokerHadChecker.Enums;
+using PokerLibrary.Enums;
 
-namespace PokerHadChecker.Structs
+namespace PokerLibrary.Structs
 {
-    public struct Card
+    public struct Card : IComparable<Card>
     {
         public static Card EmptyCard => new Card() { CardSuit = 0, Value = 0 };
         public Card(Suit suit, CardValue value)
@@ -28,6 +28,16 @@ namespace PokerHadChecker.Structs
         public override int GetHashCode()
         {
             return CardSuit.GetHashCode() ^ Value.GetHashCode();
+        }
+
+        public int CompareTo(Card other)
+        {
+            if(this.CardSuit == other.CardSuit)
+            {
+                return other.Value.CompareTo(this.Value);
+            }
+
+            return other.CardSuit.CompareTo(this.CardSuit);
         }
     }
 }

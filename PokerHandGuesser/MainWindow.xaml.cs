@@ -15,10 +15,10 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Windows.Media.Animation;
 using System.Windows.Threading;
-using PokerHadChecker.Enums;
-using PokerHadChecker.PokerHandCheckers;
-using PokerHadChecker.Structs;
-using PokerHadChecker.Handlers;
+using PokerLibrary.Enums;
+using PokerLibrary.PokerHandCheckers;
+using PokerLibrary.Structs;
+using PokerLibrary.Handlers;
 using PokerLibrary.Interfaces;
 using PokerLibrary.PokerHandGenerators;
 
@@ -167,7 +167,7 @@ namespace PokerHandGuesser
                 return;
             }
 
-            AbstractPokerHandChecker handChecker = PokerChecker.GetPokerHandChecker(this.currentHand);
+            AbstractPokerHandFinder handChecker = PokerChecker.GetPokerHandChecker(this.currentHand);
             DisplayCards(handChecker.GetHand(this.currentHand), this.displayCardPanel);
 
 

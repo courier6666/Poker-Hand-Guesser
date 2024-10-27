@@ -12,3 +12,18 @@ D:\Projects\PokerHadChecker\PokerHadChecker\obj\Debug\net8.0\refint\PokerLibrary
 D:\Projects\PokerHadChecker\PokerHadChecker\obj\Debug\net8.0\PokerLibrary.pdb
 D:\Projects\PokerHadChecker\PokerHadChecker\obj\Debug\net8.0\PokerLibrary.genruntimeconfig.cache
 D:\Projects\PokerHadChecker\PokerHadChecker\obj\Debug\net8.0\ref\PokerLibrary.dll
+D:\Projects\Before 11.09.2024\PokerHandGuesser\PokerLibrary\bin\Debug\net8.0\PokerLibrary.exe
+D:\Projects\Before 11.09.2024\PokerHandGuesser\PokerLibrary\bin\Debug\net8.0\PokerLibrary.deps.json
+D:\Projects\Before 11.09.2024\PokerHandGuesser\PokerLibrary\bin\Debug\net8.0\PokerLibrary.runtimeconfig.json
+D:\Projects\Before 11.09.2024\PokerHandGuesser\PokerLibrary\bin\Debug\net8.0\PokerLibrary.dll
+D:\Projects\Before 11.09.2024\PokerHandGuesser\PokerLibrary\bin\Debug\net8.0\PokerLibrary.pdb
+D:\Projects\Before 11.09.2024\PokerHandGuesser\PokerLibrary\obj\Debug\net8.0\PokerLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Before 11.09.2024\PokerHandGuesser\PokerLibrary\obj\Debug\net8.0\PokerLibrary.AssemblyInfoInputs.cache
+D:\Projects\Before 11.09.2024\PokerHandGuesser\PokerLibrary\obj\Debug\net8.0\PokerLibrary.AssemblyInfo.cs
+D:\Projects\Before 11.09.2024\PokerHandGuesser\PokerLibrary\obj\Debug\net8.0\PokerLibrary.csproj.CoreCompileInputs.cache
+D:\Projects\Before 11.09.2024\PokerHandGuesser\PokerLibrary\obj\Debug\net8.0\PokerLibrary.sourcelink.json
+D:\Projects\Before 11.09.2024\PokerHandGuesser\PokerLibrary\obj\Debug\net8.0\PokerLibrary.dll
+D:\Projects\Before 11.09.2024\PokerHandGuesser\PokerLibrary\obj\Debug\net8.0\refint\PokerLibrary.dll
+D:\Projects\Before 11.09.2024\PokerHandGuesser\PokerLibrary\obj\Debug\net8.0\PokerLibrary.pdb
+D:\Projects\Before 11.09.2024\PokerHandGuesser\PokerLibrary\obj\Debug\net8.0\PokerLibrary.genruntimeconfig.cache
+D:\Projects\Before 11.09.2024\PokerHandGuesser\PokerLibrary\obj\Debug\net8.0\ref\PokerLibrary.dll

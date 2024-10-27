@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace PokerHadChecker.Interfaces
+namespace PokerLibrary.Interfaces
 {
     public interface IHandler<TRequest, TResult>
     {

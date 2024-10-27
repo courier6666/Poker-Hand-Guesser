@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace PokerHadChecker.Enums
+namespace PokerLibrary.Enums
 {
     public enum HandCombinationRank
     {

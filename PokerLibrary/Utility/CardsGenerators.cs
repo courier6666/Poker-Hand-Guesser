@@ -1,5 +1,5 @@
-﻿using PokerHadChecker.Enums;
-using PokerHadChecker.Structs;
+﻿using PokerLibrary.Enums;
+using PokerLibrary.Structs;
 using System;
 using System.Collections.Generic;
 using System.Linq;

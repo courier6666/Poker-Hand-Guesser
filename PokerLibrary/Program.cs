@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Diagnostics;
-using PokerHadChecker.PokerHandCheckers;
-using PokerHadChecker.Enums;
-using PokerHadChecker.Handlers;
-using PokerHadChecker.Structs;
+using PokerLibrary.PokerHandCheckers;
+using PokerLibrary.Enums;
+using PokerLibrary.Handlers;
+using PokerLibrary.Structs;
 using PokerLibrary.PokerHandGenerators;
 
-namespace PokerHadChecker
+namespace PokerLibrary
 {
     class Program
     {
@@ -80,7 +80,7 @@ namespace PokerHadChecker
                     deckCopy.Remove(deckCopy[index]);
                 }
 
-                AbstractPokerHandChecker checker = PokerChecker.GetPokerHandChecker(generatedHand);
+                AbstractPokerHandFinder checker = PokerChecker.GetPokerHandChecker(generatedHand);
                 ++handOccurrence[checker.CombinationRank];
             }
             random.Dispose();

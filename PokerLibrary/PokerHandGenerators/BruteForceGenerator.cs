@@ -4,9 +4,9 @@ using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using PokerHadChecker.Enums;
-using PokerHadChecker.Handlers;
-using PokerHadChecker.Structs;
+using PokerLibrary.Enums;
+using PokerLibrary.Handlers;
+using PokerLibrary.Structs;
 using PokerLibrary.Interfaces;
 using PokerLibrary.Utility;
 
