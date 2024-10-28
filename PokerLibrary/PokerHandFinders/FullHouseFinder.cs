@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using PokerLibrary.Enums;
 using PokerLibrary.Structs;
@@ -124,7 +125,7 @@ namespace PokerLibrary.PokerHandCheckers
                 returnHand.Add(cardValueOccurence[greatestCardValuePair][i]);
             }
 
-            return returnHand;
+            return returnHand.Any() ? returnHand : null;
         }
     }
 }

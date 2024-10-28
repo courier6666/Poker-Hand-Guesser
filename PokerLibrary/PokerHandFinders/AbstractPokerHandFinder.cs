@@ -11,8 +11,17 @@ namespace PokerLibrary.PokerHandCheckers
     public abstract class AbstractPokerHandFinder
     {
         public HandCombinationRank CombinationRank { get; protected set; }
-
+        /// <summary>
+        /// Checks if hand contains combination.
+        /// </summary>
+        /// <param name="cards"></param>
+        /// <returns></returns>
         public abstract bool ContainsHand(List<Card> cards);
+        /// <summary>
+        /// Gets hand combination that can be found, needs at least 5 cards to get hand. Order of cards by value in resulted hand is important!
+        /// </summary>
+        /// <param name="cards"></param>
+        /// <returns></returns>
         public abstract List<Card> GetHand(List<Card> cards);
         protected List<Card> GetUniqueCards(List<Card> cards)
         {

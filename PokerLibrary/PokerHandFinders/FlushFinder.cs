@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using PokerLibrary.Enums;
 using PokerLibrary.Structs;
@@ -43,7 +44,7 @@ namespace PokerLibrary.PokerHandCheckers
 
             if (cards.Count < 5) return null;
 
-            List<Card> returnHead = null;
+            List<Card> returnHand = null;
 
             Dictionary<Suit, List<Card>> cardSuitOccurrence = new Dictionary<Suit, List<Card>>();
             foreach (var card in cards)
@@ -61,26 +62,26 @@ namespace PokerLibrary.PokerHandCheckers
                 if (cardsToSuit.Value.Count < 5)
                     continue;
 
-                if (returnHead == null)
+                if (returnHand == null)
                 {
-                    returnHead = cardsToSuit.Value.GetRange(0, 5);
+                    returnHand = cardsToSuit.Value.GetRange(0, 5);
                 }
                 else
                 {
                     for (int i = 0; i < 5; ++i)
                     {
-                        if (returnHead[i].Value > cardsToSuit.Value[i].Value)
+                        if (returnHand[i].Value > cardsToSuit.Value[i].Value)
                             break;
-                        else if (returnHead[i].Value < cardsToSuit.Value[i].Value)
+                        else if (returnHand[i].Value < cardsToSuit.Value[i].Value)
                         {
-                            returnHead = cardsToSuit.Value.GetRange(0, 5);
+                            returnHand = cardsToSuit.Value.GetRange(0, 5);
                             break;
                         }
                     }
                 }
             }
 
-            return returnHead;
+            return returnHand.Any() ? returnHand : null;
         }
     }
 }

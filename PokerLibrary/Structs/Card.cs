@@ -32,12 +32,7 @@ namespace PokerLibrary.Structs
 
         public int CompareTo(Card other)
         {
-            if(this.CardSuit == other.CardSuit)
-            {
-                return other.Value.CompareTo(this.Value);
-            }
-
-            return other.CardSuit.CompareTo(this.CardSuit);
+            return other.Value.CompareTo(this.Value);
         }
     }
 }

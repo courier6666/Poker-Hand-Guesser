@@ -7,32 +7,20 @@
       "RelativeMoniker": "D:0:0:{DCEED691-5DE1-49A4-92B6-212B2A0316F3}|PokerLibraryTest\\PokerLibraryTest.csproj|solutionrelative:pokerlibrarytest\\pokerhandchecktests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{02C69ECB-A813-4B33-909B-0E5EA812CD12}|PokerLibrary\\PokerLibrary.csproj|d:\\projects\\before 11.09.2024\\pokerhandguesser\\pokerlibrary\\structs\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02C69ECB-A813-4B33-909B-0E5EA812CD12}|PokerLibrary\\PokerLibrary.csproj|solutionrelative:pokerlibrary\\structs\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{02C69ECB-A813-4B33-909B-0E5EA812CD12}|PokerLibrary\\PokerLibrary.csproj|d:\\projects\\before 11.09.2024\\pokerhandguesser\\pokerlibrary\\pokerhandfinders\\flushfinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02C69ECB-A813-4B33-909B-0E5EA812CD12}|PokerLibrary\\PokerLibrary.csproj|solutionrelative:pokerlibrary\\pokerhandfinders\\flushfinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{02C69ECB-A813-4B33-909B-0E5EA812CD12}|PokerLibrary\\PokerLibrary.csproj|d:\\projects\\before 11.09.2024\\pokerhandguesser\\pokerlibrary\\pokerhandfinders\\abstractpokerhandfinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{02C69ECB-A813-4B33-909B-0E5EA812CD12}|PokerLibrary\\PokerLibrary.csproj|solutionrelative:pokerlibrary\\pokerhandfinders\\abstractpokerhandfinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{02C69ECB-A813-4B33-909B-0E5EA812CD12}|PokerLibrary\\PokerLibrary.csproj|d:\\projects\\before 11.09.2024\\pokerhandguesser\\pokerlibrary\\pokerhandfinders\\straightfinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02C69ECB-A813-4B33-909B-0E5EA812CD12}|PokerLibrary\\PokerLibrary.csproj|solutionrelative:pokerlibrary\\pokerhandfinders\\straightfinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{02C69ECB-A813-4B33-909B-0E5EA812CD12}|PokerLibrary\\PokerLibrary.csproj|d:\\projects\\before 11.09.2024\\pokerhandguesser\\pokerlibrary\\pokerhandfinders\\fourofakindfinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02C69ECB-A813-4B33-909B-0E5EA812CD12}|PokerLibrary\\PokerLibrary.csproj|solutionrelative:pokerlibrary\\pokerhandfinders\\fourofakindfinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{02C69ECB-A813-4B33-909B-0E5EA812CD12}|PokerLibrary\\PokerLibrary.csproj|d:\\projects\\before 11.09.2024\\pokerhandguesser\\pokerlibrary\\pokerhandfinders\\fullhousefinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{02C69ECB-A813-4B33-909B-0E5EA812CD12}|PokerLibrary\\PokerLibrary.csproj|solutionrelative:pokerlibrary\\pokerhandfinders\\fullhousefinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{02C69ECB-A813-4B33-909B-0E5EA812CD12}|PokerLibrary\\PokerLibrary.csproj|d:\\projects\\before 11.09.2024\\pokerhandguesser\\pokerlibrary\\pokerhandfinders\\royalflushfinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02C69ECB-A813-4B33-909B-0E5EA812CD12}|PokerLibrary\\PokerLibrary.csproj|solutionrelative:pokerlibrary\\pokerhandfinders\\royalflushfinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{02C69ECB-A813-4B33-909B-0E5EA812CD12}|PokerLibrary\\PokerLibrary.csproj|d:\\projects\\before 11.09.2024\\pokerhandguesser\\pokerlibrary\\pokerhandfinders\\flushfinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02C69ECB-A813-4B33-909B-0E5EA812CD12}|PokerLibrary\\PokerLibrary.csproj|solutionrelative:pokerlibrary\\pokerhandfinders\\flushfinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{02C69ECB-A813-4B33-909B-0E5EA812CD12}|PokerLibrary\\PokerLibrary.csproj|d:\\projects\\before 11.09.2024\\pokerhandguesser\\pokerlibrary\\pokerhandfinders\\fourofakindfinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02C69ECB-A813-4B33-909B-0E5EA812CD12}|PokerLibrary\\PokerLibrary.csproj|solutionrelative:pokerlibrary\\pokerhandfinders\\fourofakindfinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{02C69ECB-A813-4B33-909B-0E5EA812CD12}|PokerLibrary\\PokerLibrary.csproj|d:\\projects\\before 11.09.2024\\pokerhandguesser\\pokerlibrary\\pokerhandfinders\\highcardfinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -41,6 +29,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{02C69ECB-A813-4B33-909B-0E5EA812CD12}|PokerLibrary\\PokerLibrary.csproj|d:\\projects\\before 11.09.2024\\pokerhandguesser\\pokerlibrary\\pokerhandfinders\\pairfinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{02C69ECB-A813-4B33-909B-0E5EA812CD12}|PokerLibrary\\PokerLibrary.csproj|solutionrelative:pokerlibrary\\pokerhandfinders\\pairfinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02C69ECB-A813-4B33-909B-0E5EA812CD12}|PokerLibrary\\PokerLibrary.csproj|d:\\projects\\before 11.09.2024\\pokerhandguesser\\pokerlibrary\\pokerhandfinders\\royalflushfinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02C69ECB-A813-4B33-909B-0E5EA812CD12}|PokerLibrary\\PokerLibrary.csproj|solutionrelative:pokerlibrary\\pokerhandfinders\\royalflushfinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02C69ECB-A813-4B33-909B-0E5EA812CD12}|PokerLibrary\\PokerLibrary.csproj|d:\\projects\\before 11.09.2024\\pokerhandguesser\\pokerlibrary\\pokerhandfinders\\straightfinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02C69ECB-A813-4B33-909B-0E5EA812CD12}|PokerLibrary\\PokerLibrary.csproj|solutionrelative:pokerlibrary\\pokerhandfinders\\straightfinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{02C69ECB-A813-4B33-909B-0E5EA812CD12}|PokerLibrary\\PokerLibrary.csproj|d:\\projects\\before 11.09.2024\\pokerhandguesser\\pokerlibrary\\pokerhandfinders\\straightflushfinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -57,6 +53,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{02C69ECB-A813-4B33-909B-0E5EA812CD12}|PokerLibrary\\PokerLibrary.csproj|d:\\projects\\before 11.09.2024\\pokerhandguesser\\pokerlibrary\\enums\\handcombinationrank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{02C69ECB-A813-4B33-909B-0E5EA812CD12}|PokerLibrary\\PokerLibrary.csproj|solutionrelative:pokerlibrary\\enums\\handcombinationrank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02C69ECB-A813-4B33-909B-0E5EA812CD12}|PokerLibrary\\PokerLibrary.csproj|d:\\projects\\before 11.09.2024\\pokerhandguesser\\pokerlibrary\\structs\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02C69ECB-A813-4B33-909B-0E5EA812CD12}|PokerLibrary\\PokerLibrary.csproj|solutionrelative:pokerlibrary\\structs\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,106 +74,80 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Card.cs",
-              "DocumentMoniker": "D:\\Projects\\Before 11.09.2024\\PokerHandGuesser\\PokerLibrary\\Structs\\Card.cs",
-              "RelativeDocumentMoniker": "PokerLibrary\\Structs\\Card.cs",
-              "ToolTip": "D:\\Projects\\Before 11.09.2024\\PokerHandGuesser\\PokerLibrary\\Structs\\Card.cs",
-              "RelativeToolTip": "PokerLibrary\\Structs\\Card.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwCUAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T20:42:40.824Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "StraightFinder.cs",
-              "DocumentMoniker": "D:\\Projects\\Before 11.09.2024\\PokerHandGuesser\\PokerLibrary\\PokerHandFinders\\StraightFinder.cs",
-              "RelativeDocumentMoniker": "PokerLibrary\\PokerHandFinders\\StraightFinder.cs",
-              "ToolTip": "D:\\Projects\\Before 11.09.2024\\PokerHandGuesser\\PokerLibrary\\PokerHandFinders\\StraightFinder.cs",
-              "RelativeToolTip": "PokerLibrary\\PokerHandFinders\\StraightFinder.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAYwEAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T19:25:19.581Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "RoyalFlushFinder.cs",
-              "DocumentMoniker": "D:\\Projects\\Before 11.09.2024\\PokerHandGuesser\\PokerLibrary\\PokerHandFinders\\RoyalFlushFinder.cs",
-              "RelativeDocumentMoniker": "PokerLibrary\\PokerHandFinders\\RoyalFlushFinder.cs",
-              "ToolTip": "D:\\Projects\\Before 11.09.2024\\PokerHandGuesser\\PokerLibrary\\PokerHandFinders\\RoyalFlushFinder.cs",
-              "RelativeToolTip": "PokerLibrary\\PokerHandFinders\\RoyalFlushFinder.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAuwE4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T19:25:17.798Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "HighCardFinder.cs",
-              "DocumentMoniker": "D:\\Projects\\Before 11.09.2024\\PokerHandGuesser\\PokerLibrary\\PokerHandFinders\\HighCardFinder.cs",
-              "RelativeDocumentMoniker": "PokerLibrary\\PokerHandFinders\\HighCardFinder.cs",
-              "ToolTip": "D:\\Projects\\Before 11.09.2024\\PokerHandGuesser\\PokerLibrary\\PokerHandFinders\\HighCardFinder.cs",
-              "RelativeToolTip": "PokerLibrary\\PokerHandFinders\\HighCardFinder.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T19:25:04.972Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
               "Title": "FullHouseFinder.cs",
               "DocumentMoniker": "D:\\Projects\\Before 11.09.2024\\PokerHandGuesser\\PokerLibrary\\PokerHandFinders\\FullHouseFinder.cs",
               "RelativeDocumentMoniker": "PokerLibrary\\PokerHandFinders\\FullHouseFinder.cs",
               "ToolTip": "D:\\Projects\\Before 11.09.2024\\PokerHandGuesser\\PokerLibrary\\PokerHandFinders\\FullHouseFinder.cs",
               "RelativeToolTip": "PokerLibrary\\PokerHandFinders\\FullHouseFinder.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAYwEwAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAgwH0AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-27T19:25:03.156Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HighCardFinder.cs",
+              "DocumentMoniker": "D:\\Projects\\Before 11.09.2024\\PokerHandGuesser\\PokerLibrary\\PokerHandFinders\\HighCardFinder.cs",
+              "RelativeDocumentMoniker": "PokerLibrary\\PokerHandFinders\\HighCardFinder.cs",
+              "ToolTip": "D:\\Projects\\Before 11.09.2024\\PokerHandGuesser\\PokerLibrary\\PokerHandFinders\\HighCardFinder.cs",
+              "RelativeToolTip": "PokerLibrary\\PokerHandFinders\\HighCardFinder.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAgwCoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T19:25:04.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PairFinder.cs",
+              "DocumentMoniker": "D:\\Projects\\Before 11.09.2024\\PokerHandGuesser\\PokerLibrary\\PokerHandFinders\\PairFinder.cs",
+              "RelativeDocumentMoniker": "PokerLibrary\\PokerHandFinders\\PairFinder.cs",
+              "ToolTip": "D:\\Projects\\Before 11.09.2024\\PokerHandGuesser\\PokerLibrary\\PokerHandFinders\\PairFinder.cs",
+              "RelativeToolTip": "PokerLibrary\\PokerHandFinders\\PairFinder.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAgwFkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T19:20:09.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "RoyalFlushFinder.cs",
+              "DocumentMoniker": "D:\\Projects\\Before 11.09.2024\\PokerHandGuesser\\PokerLibrary\\PokerHandFinders\\RoyalFlushFinder.cs",
+              "RelativeDocumentMoniker": "PokerLibrary\\PokerHandFinders\\RoyalFlushFinder.cs",
+              "ToolTip": "D:\\Projects\\Before 11.09.2024\\PokerHandGuesser\\PokerLibrary\\PokerHandFinders\\RoyalFlushFinder.cs",
+              "RelativeToolTip": "PokerLibrary\\PokerHandFinders\\RoyalFlushFinder.cs",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAAAHEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T19:25:17.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "FourOfAKindFinder.cs",
               "DocumentMoniker": "D:\\Projects\\Before 11.09.2024\\PokerHandGuesser\\PokerLibrary\\PokerHandFinders\\FourOfAKindFinder.cs",
               "RelativeDocumentMoniker": "PokerLibrary\\PokerHandFinders\\FourOfAKindFinder.cs",
               "ToolTip": "D:\\Projects\\Before 11.09.2024\\PokerHandGuesser\\PokerLibrary\\PokerHandFinders\\FourOfAKindFinder.cs",
               "RelativeToolTip": "PokerLibrary\\PokerHandFinders\\FourOfAKindFinder.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAYwCwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAgwFcAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-27T19:24:54.915Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "FlushFinder.cs",
               "DocumentMoniker": "D:\\Projects\\Before 11.09.2024\\PokerHandGuesser\\PokerLibrary\\PokerHandFinders\\FlushFinder.cs",
               "RelativeDocumentMoniker": "PokerLibrary\\PokerHandFinders\\FlushFinder.cs",
               "ToolTip": "D:\\Projects\\Before 11.09.2024\\PokerHandGuesser\\PokerLibrary\\PokerHandFinders\\FlushFinder.cs",
               "RelativeToolTip": "PokerLibrary\\PokerHandFinders\\FlushFinder.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAYwCkAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAgwFEAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-27T19:24:55.604Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PokerHandCheckTests.cs",
-              "DocumentMoniker": "D:\\Projects\\Before 11.09.2024\\PokerHandGuesser\\PokerLibraryTest\\PokerHandCheckTests.cs",
-              "RelativeDocumentMoniker": "PokerLibraryTest\\PokerHandCheckTests.cs",
-              "ToolTip": "D:\\Projects\\Before 11.09.2024\\PokerHandGuesser\\PokerLibraryTest\\PokerHandCheckTests.cs",
-              "RelativeToolTip": "PokerLibraryTest\\PokerHandCheckTests.cs",
-              "ViewState": "AgIAAEwAAAAAAAAAAAAYwFYAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T18:28:46.616Z",
               "EditorCaption": ""
             },
             {
@@ -184,74 +158,100 @@
               "RelativeDocumentMoniker": "PokerLibrary\\PokerHandFinders\\AbstractPokerHandFinder.cs",
               "ToolTip": "D:\\Projects\\Before 11.09.2024\\PokerHandGuesser\\PokerLibrary\\PokerHandFinders\\AbstractPokerHandFinder.cs",
               "RelativeToolTip": "PokerLibrary\\PokerHandFinders\\AbstractPokerHandFinder.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAkwBEAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwBUAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-27T19:19:56.708Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 0,
+              "Title": "PokerHandCheckTests.cs",
+              "DocumentMoniker": "D:\\Projects\\Before 11.09.2024\\PokerHandGuesser\\PokerLibraryTest\\PokerHandCheckTests.cs",
+              "RelativeDocumentMoniker": "PokerLibraryTest\\PokerHandCheckTests.cs",
+              "ToolTip": "D:\\Projects\\Before 11.09.2024\\PokerHandGuesser\\PokerLibraryTest\\PokerHandCheckTests.cs",
+              "RelativeToolTip": "PokerLibraryTest\\PokerHandCheckTests.cs",
+              "ViewState": "AgIAAP8DAAAAAAAAAADwvwkEAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T18:28:46.616Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "StraightFinder.cs",
+              "DocumentMoniker": "D:\\Projects\\Before 11.09.2024\\PokerHandGuesser\\PokerLibrary\\PokerHandFinders\\StraightFinder.cs",
+              "RelativeDocumentMoniker": "PokerLibrary\\PokerHandFinders\\StraightFinder.cs",
+              "ToolTip": "D:\\Projects\\Before 11.09.2024\\PokerHandGuesser\\PokerLibrary\\PokerHandFinders\\StraightFinder.cs",
+              "RelativeToolTip": "PokerLibrary\\PokerHandFinders\\StraightFinder.cs",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAgwHQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T19:25:19.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "StraightFlushFinder.cs",
               "DocumentMoniker": "D:\\Projects\\Before 11.09.2024\\PokerHandGuesser\\PokerLibrary\\PokerHandFinders\\StraightFlushFinder.cs",
               "RelativeDocumentMoniker": "PokerLibrary\\PokerHandFinders\\StraightFlushFinder.cs",
               "ToolTip": "D:\\Projects\\Before 11.09.2024\\PokerHandGuesser\\PokerLibrary\\PokerHandFinders\\StraightFlushFinder.cs",
               "RelativeToolTip": "PokerLibrary\\PokerHandFinders\\StraightFlushFinder.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAYwEYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAgwHcAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-27T19:25:21.263Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "PairFinder.cs",
-              "DocumentMoniker": "D:\\Projects\\Before 11.09.2024\\PokerHandGuesser\\PokerLibrary\\PokerHandFinders\\PairFinder.cs",
-              "RelativeDocumentMoniker": "PokerLibrary\\PokerHandFinders\\PairFinder.cs",
-              "ToolTip": "D:\\Projects\\Before 11.09.2024\\PokerHandGuesser\\PokerLibrary\\PokerHandFinders\\PairFinder.cs",
-              "RelativeToolTip": "PokerLibrary\\PokerHandFinders\\PairFinder.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAYwCwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T19:20:09.3Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "ThreeOfAKindFinder.cs",
               "DocumentMoniker": "D:\\Projects\\Before 11.09.2024\\PokerHandGuesser\\PokerLibrary\\PokerHandFinders\\ThreeOfAKindFinder.cs",
               "RelativeDocumentMoniker": "PokerLibrary\\PokerHandFinders\\ThreeOfAKindFinder.cs",
               "ToolTip": "D:\\Projects\\Before 11.09.2024\\PokerHandGuesser\\PokerLibrary\\PokerHandFinders\\ThreeOfAKindFinder.cs",
               "RelativeToolTip": "PokerLibrary\\PokerHandFinders\\ThreeOfAKindFinder.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAYwC0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAgwF0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-27T19:25:22.166Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "TwoPairFinder.cs",
               "DocumentMoniker": "D:\\Projects\\Before 11.09.2024\\PokerHandGuesser\\PokerLibrary\\PokerHandFinders\\TwoPairFinder.cs",
               "RelativeDocumentMoniker": "PokerLibrary\\PokerHandFinders\\TwoPairFinder.cs",
               "ToolTip": "D:\\Projects\\Before 11.09.2024\\PokerHandGuesser\\PokerLibrary\\PokerHandFinders\\TwoPairFinder.cs",
               "RelativeToolTip": "PokerLibrary\\PokerHandFinders\\TwoPairFinder.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAYwDAAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAYwHEAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-27T19:25:38.191Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 12,
               "Title": "HandCombinationRank.cs",
               "DocumentMoniker": "D:\\Projects\\Before 11.09.2024\\PokerHandGuesser\\PokerLibrary\\Enums\\HandCombinationRank.cs",
               "RelativeDocumentMoniker": "PokerLibrary\\Enums\\HandCombinationRank.cs",
               "ToolTip": "D:\\Projects\\Before 11.09.2024\\PokerHandGuesser\\PokerLibrary\\Enums\\HandCombinationRank.cs",
               "RelativeToolTip": "PokerLibrary\\Enums\\HandCombinationRank.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAgAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-27T19:12:21.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Card.cs",
+              "DocumentMoniker": "D:\\Projects\\Before 11.09.2024\\PokerHandGuesser\\PokerLibrary\\Structs\\Card.cs",
+              "RelativeDocumentMoniker": "PokerLibrary\\Structs\\Card.cs",
+              "ToolTip": "D:\\Projects\\Before 11.09.2024\\PokerHandGuesser\\PokerLibrary\\Structs\\Card.cs",
+              "RelativeToolTip": "PokerLibrary\\Structs\\Card.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAIwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T20:42:40.824Z",
               "EditorCaption": ""
             }
           ]
